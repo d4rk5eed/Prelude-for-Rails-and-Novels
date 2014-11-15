@@ -5,7 +5,10 @@ Emacs Prelude for Rails and Novels
 - projectile-rails
 - rvm
 
+       (global-set-key (kbd "C-c q r") 'inf-ruby)
+       (global-set-key (kbd "C-c q a") 'rvm-activate-corresponding-ruby)
 
+Snippet to display ido completions vertically instead of horizontally, as is the default behaviour.
 
 [![License GPL 3][badge-license]](http://www.gnu.org/licenses/gpl-3.0.txt)
 [![Gittip](http://img.shields.io/gittip/bbatsov.svg)](https://www.gittip.com/bbatsov/)
