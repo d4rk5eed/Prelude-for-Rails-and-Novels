@@ -59,7 +59,7 @@ Will only occur if `prelude-whitespace' is also enabled."
   :type 'boolean
   :group 'prelude)
 
-(defcustom prelude-flyspell t
+(defcustom prelude-flyspell nil
   "Non-nil values enable Prelude's flyspell support."
   :type 'boolean
   :group 'prelude)
