@@ -17,7 +17,7 @@ novella mode snippet
 ;;  http://ergoemacs.org/emacs/emacs_novel_reading_mode.html
 its features
  novella-mode-toggle
- novella-compact-block-toggle
+ novella-fill-paragraph-toggle
 
 [![License GPL 3][badge-license]](http://www.gnu.org/licenses/gpl-3.0.txt)
 [![Gittip](http://img.shields.io/gittip/bbatsov.svg)](https://www.gittip.com/bbatsov/)
