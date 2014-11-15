@@ -1,3 +1,12 @@
+Emacs Prelude for Rails and Novels
+==================================
+
+**Packages**
+- projectile-rails
+- rvm
+
+
+
 [![License GPL 3][badge-license]](http://www.gnu.org/licenses/gpl-3.0.txt)
 [![Gittip](http://img.shields.io/gittip/bbatsov.svg)](https://www.gittip.com/bbatsov/)
 

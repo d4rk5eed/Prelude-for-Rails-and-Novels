@@ -63,6 +63,7 @@
 (eval-after-load 'ruby-mode
   '(progn
      (defun prelude-ruby-mode-defaults ()
+       (global-set-key (kbd "C-c q r") 'inf-ruby)
        (inf-ruby-minor-mode +1)
        (ruby-tools-mode +1)
        ;; CamelCase aware editing operations
