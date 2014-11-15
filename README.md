@@ -47,3 +47,7 @@ In contrary to fill-paragraph it removes hard newlines on paragraph region.
 **company-robe** to be greeted with an intellisense like method definitions.
 
 *TODO bundle commands with key and bundle robe start with project in*
+
+### Rspec Mode features
+
+Should be add from this http://crypt.codemancers.com/posts/2013-03-28-poor-mans-rspec-mode-for-emacs/
