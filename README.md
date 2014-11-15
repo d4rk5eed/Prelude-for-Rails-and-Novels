@@ -12,7 +12,9 @@ Snippet to display ido completions vertically instead of horizontally, as is the
 
 Default theme: tango-dark
 
-
+read-novel snippet
+;;  Formerly it's based on this snippet
+;;  http://ergoemacs.org/emacs/emacs_novel_reading_mode.html
 
 [![License GPL 3][badge-license]](http://www.gnu.org/licenses/gpl-3.0.txt)
 [![Gittip](http://img.shields.io/gittip/bbatsov.svg)](https://www.gittip.com/bbatsov/)
