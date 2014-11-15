@@ -17,10 +17,13 @@ Default theme: **tango-dark** , since offered zenburn is not enough contrast for
 ### Additional Packages
 - projectile-rails (https://github.com/asok/projectile-rails)
 - rvm.el (https://github.com/senny/rvm.el)
+- robe (https://github.com/dgutov/robe)
 
 ### New Key binfings
 - **C-c q r**    calls irb in current shell
 - **C-c q a**    load current rvm configuration (ruby version/gemset) in projectile-rails environment
+
+- **M-.**  method navigation (bundled with robe-jump)
 
 ### Flx-ido update
 Ido completions is displayed vertically by default.
@@ -36,3 +39,11 @@ Adopts windows for convenient reading of articles and novels. Hides fringes and 
 **novella-fill-paragraph-toggle**, based on [fill/unfill-region Toggle](http://ergoemacs.org/emacs/modernization_fill-paragraph.html)
 
 In contrary to fill-paragraph it removes hard newlines on paragraph region.
+
+### Robe interactive commands
+
+**robe-start** to start completion backend when you navigate into your project
+
+**company-robe** to be greeted with an intellisense like method definitions.
+
+*TODO bundle commands with key and bundle robe start with project in*
