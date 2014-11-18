@@ -35,6 +35,12 @@
 (prelude-require-packages '(robe))
 
 (add-hook 'ruby-mode-hook 'robe-mode)
+
+(add-hook 'ruby-mode-hook
+          (lambda ()
+            (set (make-local-variable 'company-backends)
+                 (remq 'company-capf company-backends))))
+
 (defadvice inf-ruby-console-auto (before activate-rvm-for-robe activate)
   (rvm-activate-corresponding-ruby))
 

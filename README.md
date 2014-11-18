@@ -59,3 +59,7 @@ Two function based on [this topic](http://stackoverflow.com/questions/11623189/h
 **my-indent-region** -> moves region to the right by 2 positions (bound on **C-.**)
 
 **my-unindent-region** -> moves region to the left by 2 positions (bound on **C-,**)
+
+### [company-robe] Removed company-capf
+
+Since it freezes connection to host I removed it from company backends
