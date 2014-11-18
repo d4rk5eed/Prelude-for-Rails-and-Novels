@@ -51,3 +51,11 @@ In contrary to fill-paragraph it removes hard newlines on paragraph region.
 ### Rspec Mode features
 
 Should be add from this http://crypt.codemancers.com/posts/2013-03-28-poor-mans-rspec-mode-for-emacs/
+
+### Indentation snippets and key bindings
+
+Two function based on [this topic](http://stackoverflow.com/questions/11623189/how-to-bind-keys-to-indent-unindent-region-in-emacs)
+
+**my-indent-region** -> moves region to the right by 2 positions (bound on **C-.**)
+
+**my-unindent-region** -> moves region to the left by 2 positions (bound on **C-,**)
