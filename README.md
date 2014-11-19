@@ -10,6 +10,7 @@ Novella module is based on [Ergoemacs distribution](http://ergoemacs.org/)
 
 ## Main Features
 Default theme: **tango-dark** , since offered zenburn is not enough contrast for me.
+Removed system beep.
 
 ### Additional Package Repository
 [Marmalade](http://marmalade-repo.org/)
@@ -41,7 +42,6 @@ Adopts windows for convenient reading of articles and novels. Hides fringes and 
 In contrary to fill-paragraph it removes hard newlines on paragraph region.
 
 ### Robe interactive commands
-
 **robe-start** to start completion backend when you navigate into your project
 
 **company-robe** to be greeted with an intellisense like method definitions.
@@ -49,11 +49,9 @@ In contrary to fill-paragraph it removes hard newlines on paragraph region.
 *TODO bundle commands with key and bundle robe start with project in*
 
 ### Rspec Mode features
-
 Should be add from this http://crypt.codemancers.com/posts/2013-03-28-poor-mans-rspec-mode-for-emacs/
 
 ### Indentation snippets and key bindings
-
 Two function based on [this topic](http://stackoverflow.com/questions/11623189/how-to-bind-keys-to-indent-unindent-region-in-emacs)
 
 **my-indent-region** -> moves region to the right by 2 positions (bound on **C-.**)
@@ -61,5 +59,4 @@ Two function based on [this topic](http://stackoverflow.com/questions/11623189/h
 **my-unindent-region** -> moves region to the left by 2 positions (bound on **C-,**)
 
 ### [company-robe] Removed company-capf
-
 Since it freezes connection to host I removed it from company backends
