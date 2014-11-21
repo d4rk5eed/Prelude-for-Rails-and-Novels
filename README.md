@@ -60,3 +60,7 @@ Two function based on [this topic](http://stackoverflow.com/questions/11623189/h
 
 ### [company-robe] Removed company-capf
 Since it freezes connection to host I removed it from company backends
+
+### Added cua-mode
+Now Can use C-c, C-v, C-x, C-z as usual!
+[Read more](http://www.emacswiki.org/CuaMode)
