@@ -38,7 +38,7 @@
   :prefix "prelude-"
   :group 'convenience)
 
-(defcustom prelude-auto-save t
+(defcustom prelude-auto-save nil
   "Non-nil values enable Prelude's auto save."
   :type 'boolean
   :group 'prelude)
