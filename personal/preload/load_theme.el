@@ -1,6 +1,8 @@
 (setq prelude-theme 'tango-dark)
 (setq ring-bell-function 'ignore)
 (cua-mode t)
+;; (cua-selection-mode t)
+(setq shift-select-mode t)
 (setq cua-auto-tabify-rectangles nil) ;; Don't tabify after rectangle commands
 (transient-mark-mode 1) ;; No region when it is not highlighted
 (set-language-environment 'utf-8)
