@@ -12,3 +12,4 @@
 (prefer-coding-system 'utf-8)
 
 (setq ruby-insert-encoding-magic-comment nil)
+(global-linum-mode 1) ; display line numbers in margin
