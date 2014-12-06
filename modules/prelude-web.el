@@ -67,6 +67,8 @@
 (eval-after-load 'web-mode
   '(progn
      (defun prelude-web-mode-defaults ())
+     (local-set-key (kbd "RET") 'newline-and-indent)
+
      (setq prelude-web-mode-hook 'prelude-web-mode-defaults)
 
      (add-hook 'web-mode-hook (lambda ()

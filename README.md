@@ -64,3 +64,8 @@ Since it freezes connection to host I removed it from company backends
 ### Added cua-mode
 Now Can use C-c, C-v, C-x, C-z as usual!
 [Read more](http://www.emacswiki.org/CuaMode)
+
+### Added web-mode
+Erb required it.
+http://web-mode.org/
+@TODO make auto-identation if not
