@@ -73,7 +73,9 @@
        (go-eldoc-setup)
 
        ;; CamelCase aware editing operations
-       (subword-mode +1))
+       (subword-mode +1)
+       (setq tab-width 2 standard-indent 2 indent-tabs-mode nil))
+
 
      (setq prelude-go-mode-hook 'prelude-go-mode-defaults)
 

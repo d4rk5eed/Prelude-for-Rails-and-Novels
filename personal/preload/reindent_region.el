@@ -15,5 +15,5 @@
              (setq deactivate-mark nil))
     (self-insert-command N)))
 
-(global-set-key (kbd "C-.") 'my-indent-region)
-(global-set-key (kbd "C-,") 'my-unindent-region)
+(global-set-key (kbd "C-0") 'my-indent-region)
+(global-set-key (kbd "C-9") 'my-unindent-region)

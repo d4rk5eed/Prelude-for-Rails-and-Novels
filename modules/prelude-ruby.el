@@ -34,7 +34,7 @@
 
 (require 'prelude-programming)
 
-(prelude-require-packages '(ruby-tools inf-ruby yari))
+(prelude-require-packages '(ruby-tools inf-ruby yari rubocop))
 
 ;; Rake files are ruby, too, as are gemspecs, rackup files, and gemfiles.
 (add-to-list 'auto-mode-alist '("\\.rake\\'" . ruby-mode))
@@ -73,6 +73,20 @@
 
      (add-hook 'ruby-mode-hook (lambda ()
                                  (run-hooks 'prelude-ruby-mode-hook)))))
+(custom-set-variables
+ '(feature-cucumber-command "cucumber {options} {feature}")
+ '(feature-use-rvm t))
+(setq feature-default-language "fi")
 
+;; (defcustom feature-cucumber-command "rake cucumber CUCUMBER_OPTS=\"{options}\" FEATURE=\"{feature}\""
+;;   "set this variable to the command, which should be used to execute cucumber scenarios."
+;;   :group 'feature-mode
+;;   :type 'string)
+
+;; (defcustom feature-use-rvm nil
+;;   "t when RVM is in use. (Requires rvm.el)"
+;;   :type 'boolean
+;;   :group 'feature-mode)
+                                        ;
 (provide 'prelude-ruby)
 ;;; prelude-ruby.el ends here
