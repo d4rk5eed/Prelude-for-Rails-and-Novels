@@ -6,7 +6,16 @@ enchanced with additional features.
 
 Rails support configuration is based on [Lorfnon's Guide](http://lorefnon.me/2014/02/02/configuring-emacs-for-rails.html)
 
-Novella module is based on [Ergoemacs distribution](http://ergoemacs.org/)
+Novella module is based on [Ergoemacs distribution](http://ergoemacs.org/) [disabled by default]
+
+This package intends to be of  Clone-and-Code type.
+It means you just need to:
+
+```
+git clone <repository> ~/.emacs.d
+```
+
+and run EMACS
 
 ## Main Features
 Default theme: **tango-dark** , since offered zenburn is not enough contrast for me.
@@ -69,3 +78,7 @@ Now Can use C-c, C-v, C-x, C-z as usual!
 Erb required it.
 http://web-mode.org/
 @TODO make auto-identation if not
+
+### Added support for russian input method
+Just use `C-\` to toggle between latin and cyrillic input methods.
+Or you can disable it in `custom.el`
