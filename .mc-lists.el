@@ -4,11 +4,14 @@
 (setq mc/cmds-to-run-for-all
       '(
         indent-for-tab-command
+        smex
         sp--self-insert-command
+        yaml-electric-backspace
         ))
 
 (setq mc/cmds-to-run-once
       '(
         find-tag-regexp
         ido-find-file
+        prelude-kill-whole-line
         ))
