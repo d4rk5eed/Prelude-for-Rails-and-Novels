@@ -82,3 +82,8 @@ http://web-mode.org/
 ### Added support for russian input method
 Just use `C-\` to toggle between latin and cyrillic input methods.
 Or you can disable it in `custom.el`
+
+### Added crux
+A Collection of Ridiculously Useful eXtensions for Emacs. crux bundles a few useful interactive commands to enhance your overall Emacs experience.
+[Read more](https://github.com/bbatsov/crux)
+

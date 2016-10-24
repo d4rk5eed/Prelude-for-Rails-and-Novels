@@ -57,6 +57,7 @@
     discover-my-major
     diff-hl
     diminish
+    crux
     easy-kill
     elisp-slime-nav
     epl
